@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+
+/*Creación de variables*/
+
+/*Colores*/
+:root {
+
+    --hfbl-color: #b44173;
+    --body-color: #EBDBF9;
+    --cards-color: #E0C7F6;
+    --letter-transition: #1F1F1F;
+ 
+    --letter-dark-color: #1F1F1F;
+    --letter-light-color: #FFFFFF;
+
+    /*Tipografía*/
+ 
+    
+    --font-base: 'Open Sans', sans-serif;
+    --font-alternativa: Oleo Script Swash Caps, sans-serif;
+ 
+    /*Tamaños de fuentes*/
+ 
+    --font-large: 2.5em;     /*40px*/
+    --font-xlarge: 2em;     /*32px*/    
+    --font-medium: 1.5em;  /*24px*/
+    --font-small: 1.25em;  /*20px*/
+    --font-xsmall: 1em;    /*16px*/
+    --font-xxsmall: 0.87em; /*14px*/
+    --font-xxxsmall: 0.62em; /*10px*/
+
+ 
+    /*Espaciados*/
+ 
+    --spacing-60: 3.75em; /*60px*/
+    --spacing-40: 2.5em;  /*40px*/
+    --spacing-32: 2em;    /*32px*/
+    --spacing-24: 1.5em;  /*24px*/
+    --spacing-20: 1.25;   /*20px*/
+    --spacing-16: 1em;    /*16px*/
+    --spacing-12: 0.75em;    /*12px*/
+    --spacing-8: 0.5em;    /*8px*/
+ }
+ 
+ /*Fin de Variables*/
+ /*--------------------------------------------------------------------------------------------------*/
+
+/*Normalización*/
+
+* {
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+    background-color: var(--body-color);
+    font-family: var(--font-base);
+ }
+ 
+ a {
+    text-decoration: none;
+    color: inherit;
+ }
+ 
+ header,
+ footer {
+    color: var(--letter-light-color);
+    background-color: var(--hfbl-color);
+ }
+
+ img {
+    max-width: 100%;
+ }
+ 
+ ul,
+ ol {
+    list-style-type: none;
+ }
+ 
+ img {
+    max-width: 100%;
+ }
+
+/*Fin Normalización*/
+/*------------------------------------HEADER---------------------------------------------------------------*/
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "main aside aside"
+    "footer footer footer";
+    gap: 0.5em;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 1.5em 1.5em;
+    grid-area: header;
+}
+.logo{
+    display:flex ;
+    padding-left: 0.5em;
+    /* display: inline-block; */
+}
+.img-logo{
+    width: 8em;
+}
+
+.heaSlogan{
+    font-family: var(--font-alternativa);
+    font-size: var(--spacing-24);
+    align-content:flex-end;
+    padding-bottom: 0.8em;
+}
+
+.headMenu{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 0.5em; */
+    margin: 0.5em 0 0.3em 0;
+}
+
+.list-menu{
+    display: flex;
+    gap: 1em;
+    padding: 0 0.5em;
+    font-size: var(--font-xsmall);
+    font-weight: 500;
+   margin-bottom: 0.5em;
+}
+.heaLink-menu{
+    padding: 0.5em;
+    transition: background .3s ease-in-out;
+   position: relative;
+   text-transform: uppercase;
+   border-radius: 0.5em;
+}
+.heaLink-menu:hover{
+   background-color: var(--cards-color);
+   color: var(--letter-transition);
+}
+
+
+.list-sesion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: var(--font-xxsmall);
+    padding-right: 1em;
+}
+
+.heaLink-sesion{
+    padding: 0.1em;
+    transition: background .3s ease-in-out;
+   position: relative;
+   border-radius: 0.3em;
+}
+.heaLink-sesion:hover{
+   background-color: var(--cards-color);
+   color: var(--letter-transition);
+}
+
+/*----------------------------------NAVBAR-------------------------------------------------------------------*/
+
+
+.navMenu{
+    grid-area: nav;
+}
+.navList{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navLink{
+    display: inline-block;
+    background-color: var(--cards-color);
+    padding: var(--spacing-8) var(--spacing-16);
+    margin: 0.5em 0;
+    border-radius: 0.5em;
+    font-size: var(--font-xsmall);
+    font-weight: 500;
+    transition: background .3s ease-in-out;
+   position: relative;
+   text-transform: uppercase;
+}
+
+.navLink:hover{
+    background-color: var(--hfbl-color);
+    color: var(--letter-light-color);
+}
+
+.submenu {
+    width: 300px;
+    display: none;
+    position: absolute;
+    background-color: var(--cards-color);
+    z-index: 2;
+
+ }
+ .with-submenu:hover .submenu {
+    display: block;
+ 
+ }
+ .submenu-link {
+    display: block;
+    padding: var(--spacing-8) ;
+    font-size: var(--font-xsmall);
+ }
+ .submenu-link:hover {
+    background-color: var(--hfbl-color);
+    transition: background .3s ease-in-out;
+    color: var(--letter-light-color);
+ }
+ 
+ /*-------------------------------------------------MAIN--------------------------------------------------------------*/
+
+ .content{
+    background-color: var(--cards-color);
+    grid-area: main;
+    border-radius: 1em;
+    margin-left: 0.5em;
+    justify-content: center;
+ }
+
+ /* .secWelcome{
+ 
+ } */
+ /* .artWelcome{
+    margin: auto;
+ } */
+ 
+ .titleWelcome{
+    width: 60%;
+    font-size: var(--font-xlarge) ;
+    font-family: var(--font-alternativa);
+    text-align: center;
+        margin: auto;
+ }
+
+
+/*CAROUSEL*/
+
+.carousel-container{
+    margin: 2em 0;
+}
+
+.carousel-items{
+  display: flex;
+  gap: .5em;
+  justify-content: center;
+}
+
+.img-slide{
+    width: 100px;
+    height: 150px;
+    border: 0.2em solid var(--hfbl-color);
+    border-radius: 0.8em;
+}
+
+.img-slide:hover{
+    width: 200px;
+    height: 250px;
+}
+
+/*-------------------------------------------ASIDE--------------------------------------------------------------------*/
+
+.aside{
+    background-color: var(--cards-color);
+    border-radius: 1em;
+    grid-area: aside;
+    width: 12.5em;
+    margin-right: 0.5em;
+}
+
+.reseñasContainer{
+    text-align: center;
+}
+.titleReseñas{
+    font-size: var(--font-small);
+}
+
+.itemReseña{
+    display: flex;
+    gap: 0.2em;
+    margin: 1em 0.3em;
+    text-align: start;
+}
+
+.imgReseña{
+    border-radius: 50%;
+}
+.subtitleReseña{
+    font-size: var(--font-xxsmall);
+    font-weight: bold;
+}
+.nombreReseña{
+    font-size: var(--font-xxxsmall);
+    font-weight: bold;
+}
+.linkReseñas{
+    border-bottom: 1px solid black;
+    font-size: var(--font-xxsmall);
+}
+
+
+/*------------------------------------------FOOTER--------------------------------------------------------------------*/
+
+footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.follow{
+    text-align: center;
+}
+
+.img-iconos{
+    width: 2em;
+}
+
+.img-logo-footer{
+    width: 5em;
+}
+
+.img-ubi{
+    width: 2.9em;
+}
+
+
+
+/*MEDIA QUERIES*/
+
