@@ -84,7 +84,7 @@ html {
 
 /*Fin Normalización*/
 /*------------------------------------HEADER---------------------------------------------------------------*/
-body{
+.bodyIndex{
     display: grid;
     grid-template-areas: 
     "header header header"
@@ -314,6 +314,8 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 1.5em 1.5em 0 0 ;
+    padding: 0 0.5em;
 }
 .follow{
     text-align: center;
@@ -331,6 +333,40 @@ footer{
     width: 2.9em;
 }
 
+/*//////////////////////////////////////////////////////////////////////////////////////PRODUCTOS//////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.title{
+    text-align: center;
+}
+
+.containerProd{
+    display:flex ;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    justify-content: space-between;
+    margin: 1em 3em;
+
+}
+
+.itemsProductos{
+    width: 300px;
+    height: 300px;
+    gap: 0.5em;
+    text-align: center;
+}
+
+.itemProducto{
+    margin-bottom: 0.5em;
+    color: var(--hfbl-color);
+    text-shadow: 3px 3px 3px var(--letter-transition);
+}
+
+.img-producto{
+    width: 7.5em;
+    height: 6.25em;
+    border: 0.2em solid var(--hfbl-color);
+    border-radius: 0.8em;
+}
 
 
 /*MEDIA QUERIES*/
