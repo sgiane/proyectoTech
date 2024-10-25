@@ -111,6 +111,7 @@ header{
 }
 .img-logo{
     width: 8em;
+
 }
 
 .heaSlogan{
@@ -118,6 +119,7 @@ header{
     font-size: var(--spacing-24);
     align-content:flex-end;
     padding-bottom: 0.8em;
+    text-shadow: 9px 6px 3px rgb(28, 27, 27);
 }
 
 .headMenu{
@@ -183,7 +185,7 @@ header{
     display: inline-block;
     background-color: var(--cards-color);
     padding: var(--spacing-8) var(--spacing-16);
-    margin: 0.5em 0;
+    margin:1em 0;
     border-radius: 0.5em;
     font-size: var(--font-xsmall);
     font-weight: 500;
@@ -430,7 +432,7 @@ form {
 }
 
 .btn{
-    width: 8em;
+    width: 50%;
     padding: .7em;
     border: none;
     border-radius: .8em;
@@ -439,12 +441,109 @@ form {
     transition: background .3s ease-in-out;
     font-size: var(--font-xsmall);
     font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1em;
 }
 
 .btn:hover{
     background-color: var(--cards-color);
     color: var(--letter-transition);
     border: 2px solid var(--hfbl-color)
+}
+
+/*/////////////////////////////////////////////////////////////////////////PRODUCTO TORTAS////////////////////////////////////////////////////////////////////////////*/
+/* .mainTortas{
+    display: grid;
+    grid-template-columns: 65% 45%;
+} */
+.prodTorta{
+    display: flex;
+}
+
+.titleProd{
+    font-size: var(--font-small);
+    font-weight: 600;
+    text-decoration: underline;
+    color: var(--hfbl-color);
+    text-align: center;
+    padding: 0.5em;
+    grid-column: 1 / 3;
+}
+.galleryContainer{
+    display: flex;
+    grid-column: 1 / 2;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 2px solid var(--hfbl-color);
+    /* float: left; */
+    width: 180px;
+
+  }
+  
+  div.gallery:hover {
+    border: 2px solid #27032b;
+  }
+  
+  div.gallery img {
+    width: 200px;
+    height: 230px;
+    border: 2px solid var(--hfbl-color);
+
+  }
+  
+  div.desc {
+    padding: 0.6em;
+    text-align: center;
+  }
+
+  .articleUno-Tortas{
+    margin-left: 0.5em;
+    padding-bottom: 1em;
+  }
+
+  .articleDos-Tortas{
+    width: 100%;
+    margin: 0.3em 0.8em; 
+    height: 500px;
+    
+}
+  .detailProd{
+  background-color: var(--cards-color);
+  width: 100%;  
+  text-align: center;
+  padding: 0.5em;
+  border-radius: 1em;
+  
+}
+
+.subtitle{
+    margin: 1em 0 0.5em 0;
+    text-transform:uppercase ;
+    color: var(--hfbl-color);
+}
+
+.description{
+    font-size: var(--font-small);
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.detailProd img{
+    border: 2px solid var(--hfbl-color);
+    border-radius: 1em;
+    margin-top: 2em;
+}
+.details{
+    font-size: var(--font-xxsmall);
+    margin: 2em 0;
+}
+.price{
+    font-size: var(--font-xlarge);
+    font-weight: 700;
+    margin: 2em ;
 }
 /*MEDIA QUERIES*/
 
