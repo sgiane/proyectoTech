@@ -457,11 +457,8 @@ form {
 }
 
 /*/////////////////////////////////////////////////////////////////////////PRODUCTO TORTAS////////////////////////////////////////////////////////////////////////////*/
-/* .mainTortas{
-    display: grid;
-    grid-template-columns: 65% 45%;
-} */
-.prodTorta{
+
+.productTortas{
     display: flex;
 }
 
@@ -472,12 +469,11 @@ form {
     color: var(--hfbl-color);
     text-align: center;
     padding: 0.5em;
-    grid-column: 1 / 3;
-}
+    }
+
 .galleryContainer{
     display: flex;
-    grid-column: 1 / 2;
-}
+    }
 
 div.gallery {
     margin: 5px;
@@ -506,6 +502,7 @@ div.gallery {
   .articleUno-Tortas{
     margin-left: 0.5em;
     padding-bottom: 1em;
+    flex-wrap: wrap;
   }
 
   .articleDos-Tortas{
@@ -550,5 +547,29 @@ div.gallery {
     font-weight: 700;
     margin: 2em ;
 }
+
+/*////////////////////////////////////////////////////////////////////////PRODUCTO POSTRES//////////////////////////////////////////////////////////////////////////*/
+.productPostres{
+    display:flex ;
+    justify-content: space-between
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+
+.articleUno-Postres{
+    width:60%;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.articleDos-Postres{
+    width: 30%;
+}
+
+
+
 /*MEDIA QUERIES*/
 
