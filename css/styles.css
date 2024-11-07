@@ -569,6 +569,54 @@ div.gallery {
     width: 30%;
 }
 
+/*////////////////////////////////////////////////CARRITO DE COMPRAS//////////////////////////////*/
+
+/* .formCar{
+    display: flex;
+} */
+
+.itemsCar{
+    /* display: flex; */
+    align-items: center;
+    background-color: var(--cards-color);
+    margin: var(--spacing-60) var(--spacing-16) ;
+    padding: var(--spacing-12);
+    border-radius: 20px;
+
+}
+
+.itemCar{
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--hfbl-color);
+    padding: 1em;
+    margin:  1em;
+    border-radius: 20px;
+    justify-content: space-evenly;
+}
+
+.imgItemCar{
+    width: 12em;
+    height: 10em;
+    border: 3px solid var(--hfbl-color);
+    border-radius: 16px ;
+    
+}
+
+.itemDetails > *{
+    padding: 0.3em
+}
+.itemTitle{
+    font-size: var(--font-small) ;
+    font-weight: 600;
+}
+.itemDetail{
+    font-size: var(--font-xxsmall);
+}
+.priceCar{
+    font-size: var(--font-small) ;
+    font-weight: 600;
+}
 
 
 /*MEDIA QUERIES*/
