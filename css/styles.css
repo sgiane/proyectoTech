@@ -462,14 +462,14 @@ form {
     display: flex;
 }
 
-.titleProd{
+/* .titleProd{
     font-size: var(--font-small);
     font-weight: 600;
     text-decoration: underline;
     color: var(--hfbl-color);
     text-align: center;
     padding: 0.5em;
-    }
+    } */
 
 .galleryContainer{
     display: flex;
@@ -477,21 +477,25 @@ form {
 
 div.gallery {
     margin: 5px;
-    border: 2px solid var(--hfbl-color);
+    border: 3px solid var(--hfbl-color);
     /* float: left; */
-    width: 180px;
+    width: 200px;
+    height: 300px;
 
   }
   
   div.gallery:hover {
-    border: 2px solid #27032b;
+    border: 4px solid #a40909;
+    box-shadow: 10px 10px 5px #d48bed;
   }
   
   div.gallery img {
     width: 200px;
     height: 230px;
-    border: 2px solid var(--hfbl-color);
-
+    border-bottom: 3px solid var(--hfbl-color);
+  }
+  div.gallery img:hover{
+        border-bottom: 4px solid #a40909;
   }
   
   div.desc {
@@ -551,22 +555,116 @@ div.gallery {
 /*////////////////////////////////////////////////////////////////////////PRODUCTO POSTRES//////////////////////////////////////////////////////////////////////////*/
 .productPostres{
     display:flex ;
+    margin: 0 2em 2em;
     justify-content: space-between
 }
 
-.gridContainer{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    
+.productContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 2em;
 }
 
-.articleUno-Postres{
-    width:60%;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-}
 .articleDos-Postres{
     width: 30%;
+}
+
+/*------------------------------------------------Ventana Modal-------------------------*/
+.modal{
+
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+    top: 0; left: 0;
+    background-color: #00000071;
+    display: none;
+    z-index: 100;
+}
+
+.container-modal,
+.container-modal2,
+.container-modal3,
+.container-modal4,
+.container-modal5,
+.container-modal6,
+.container-modal7,
+.container-modal8,
+.container-modal9,
+.container-modal10{
+    display: none;
+
+}
+
+#btn-modal,
+#btn-modal2,
+#btn-modal3,
+#btn-modal4,
+#btn-modal5,
+#btn-modal6,
+#btn-modal7,
+#btn-modal8,
+#btn-modal9,
+#btn-modal10{
+    display: none;
+}
+#btn-modal:checked ~ .container-modal,
+#btn-modal2:checked ~ .container-modal2,
+#btn-modal3:checked ~ .container-modal3,
+#btn-modal4:checked ~ .container-modal4,
+#btn-modal5:checked ~ .container-modal5,
+#btn-modal6:checked ~ .container-modal6,
+#btn-modal7:checked ~ .container-modal7,
+#btn-modal8:checked ~ .container-modal8,
+#btn-modal9:checked ~ .container-modal9,
+#btn-modal10:checked ~ .container-modal10{
+    display: flex;
+}
+
+.content-modal > *{
+    margin: 0;
+    padding: 1em;
+}
+
+.content-modal{
+    background-color: var(--cards-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+text-align: center;
+width: 40%;
+padding: 0 2em 1em;
+margin: auto;
+margin-top: 3em;
+border-radius: 30px;
+}
+
+.img-modal{
+    width: 250px;
+    height: 300px;
+    border: 3px solid var(--hfbl-color);
+    border-radius: 1em;
+    padding: 0;
+}
+.boton-cerrar{
+    background-color: black;
+    color: white;
+    font-size: var(--font-small);
+    font-weight: 700;
+    position: absolute;
+    padding: 0.5em;
+    top: 0; right: 0;
+    margin-right: 0.8em;
+}
+
+.cerrar-modal{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
 }
 
 /*////////////////////////////////////////////////CARRITO DE COMPRAS//////////////////////////////*/
