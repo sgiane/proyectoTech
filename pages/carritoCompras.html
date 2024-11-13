@@ -1,159 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mi Dulce Giane - Carrito de Compras</title>
-        <link rel="icon" href="/images/iconos/Logo.ico">
-        <link rel="stylesheet" href="/css/styles.css">
-    </head>
-    <body class="bodyProd">
-        <header class="header">
-            <picture class="logo">
-              <a href="../index.html">
-                <img
-                  class="img-logo"
-                  src="/images/Logo/Logo.png"
-                  alt="Logo Mi Dulce Giane"
-              /></a>
-              <div class="heaSlogan">
-                <h4 class="Slogan">Endulzándote la vida...</h4>
-              </div>
-            </picture>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Dulce Giane - Carrito de Compras</title>
+  <link rel="icon" href="/images/iconos/Logo.ico">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body class="bodyProd">
+  <header class="header">
+    <picture class="logo">
+      <a href="../index.html">
+        <img class="img-logo" src="/images/Logo/Logo.png" alt="Logo Mi Dulce Giane" /></a>
+      <div class="heaSlogan">
+        <h4 class="Slogan">Endulzándote la vida...</h4>
+      </div>
+    </picture>
+
+    <!-- <button id="openMenu" class="openMenu"><iconify-icon icon="fa6-solid:bars"  style="color: white"></iconify-icon></button> -->
+    <div class="headMenu">
+      <div class="heaList">
+        <ul class="list-sesion">
+          <li class="heaListItem">
+            <a class="heaLink-sesion" href="#">Iniciar sesión</a>
+          </li>
+          <li class="heaListItem">
+            <a class="heaLink-sesion" href="#">Registrarse</a>
+          </li>
+        </ul>
+      </div>
+      <div class="heaList2">
+        <ul class="list-menu">
+          <li class="heaListItem2">
+            <a class="navbar__cart" href="#">
+              <img src="/images/iconos/cart-icon.svg" alt="ícono de carrito">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <nav class="navMenu">
+    <ul class="navList">
+      <li class="navListItem">
+        <a class="navLink" target="_blank" href="/pages/productos.html">Productos</a>
+      </li>
+      <li class="navListItem with-submenu">
+        <a class="navLink" href="#"
+          >Categoría<iconify-icon icon="ion:chevron-down"></iconify-icon
+        ></a>
+        <ul class="submenu">
+          <li class="submenu-item">
+            <a target="_blank" href="/pages/productosTortas.html" class="submenu-link">Tortas</a>
+          </li>
+          <li class="submenu-item">
+            <a target="_blank" href="/pages/productosPostres.html" class="submenu-link">Postres</a>
+          </li>
+          <li class="submenu-item">
+            <a target="_blank" href="#" class="submenu-link">Cupcakes</a>
+          </li>
+          <li class="submenu-item">
+            <a target="_blank" href="#" class="submenu-link">Postres en Vasos</a>
+          </li>
+          <li class="submenu-item">
+            <a target="_blank" href="#" class="submenu-link">Paletas</a>
+          </li>
+          <li class="submenu-item">
+            <a target="_blank" href="#" class="submenu-link">Popcakes</a>
+          </li>
+          
+        </ul>
+      </li>
+      <li class="navListItem"><a target="_blank" class="navLink" href="#">Promociones</a></li>
+      <li class="navListItem"><a target="_blank" class="navLink" href="#">Combos</a></li>
       
-            <!-- <button id="openMenu" class="openMenu"><iconify-icon icon="fa6-solid:bars"  style="color: white"></iconify-icon></button> -->
-            <div class="headMenu">
-              <div class="heaList">
-                <ul class="list-sesion">
-                  <li class="heaListItem">
-                    <a class="heaLink-sesion" href="#">Iniciar sesión</a>
-                  </li>
-                  <li class="heaListItem">
-                    <a class="heaLink-sesion" href="#">Registrarse</a>
-                  </li>
-                </ul>
+      <li class="navListItem">
+        <a target="_blank" class="navLink" href="/pages/contacto.html">Contacto</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1 class="title">Carrito de Compras</h1>
+    <section class="containerCar">
+      <article class="itemsCar">
+        <form class="formCar" action="">
+
+          <!-- Item 1 -->
+          <div class="containerItem">
+            <input class="inputRadio" type="radio" id="item1" name="item1" value="item1">
+            <label class="labelItemCar" for="item1">
+              <div class="itemCar">
+                <div class="imgItem">
+                  <img class="imgItemCar" src="/images/Tortas/Tortas Golosinas/Golosinas5.PNG" alt="Torta de Golosinas">
+                </div>
+                <div class="itemDetails">
+                  <p class="itemTitle">Torta de Golosinas</p>
+                  <p class="itemDetail">Bizcochuelo de Chocolate con doble relleno de Dulce de Leche, cubierta con
+                    Golosinas variadas.
+                  <p class="priceCar">$ 15.000</p>
+                  </p>
+                </div>
+                <div class="amount">
+                  <input type="number" class="inputAmount" name="number1" id="number1" placeholder="0">
+                </div>
               </div>
-              <div class="heaList2">
-                <ul class="list-menu">
-                  <li class="heaListItem2">
-                    <a class="navbar__cart" href="#">
-                        <img src="/images/iconos/cart-icon.svg" alt="ícono de carrito">
-                    </a>
-                  </li>
-                </ul>
+            </label><br>
+
+            <iconify-icon class="iconDel" icon="mi:delete" width="24" height="24"></iconify-icon>
+          </div>
+          <!-- Item 2 -->
+          <div class="containerItem">
+            <input class="inputRadio" type="radio" id="item2" name="item2" value="item2">
+            <label class="labelItemCar" for="item2">
+              
+              <div class="itemCar">
+                <div class="imgItem">
+                  <img class="imgItemCar" src="/images/Tortas/Tortas Golosinas/Golosinas5.PNG" alt="Torta de Golosinas">
+                </div>
+                <div class="itemDetails">
+                  <p class="itemTitle">Torta de Golosinas</p>
+                  <p class="itemDetail">Bizcochuelo de Chocolate con doble relleno de Dulce de Leche, cubierta con
+                    Golosinas variadas.
+                  <p class="priceCar">$ 15.000</p>
+                  </p>
+                </div>
+                <div class="amount">
+                  <input type="number" class="inputAmount" name="number1" id="number1" placeholder="0">
+                </div>
               </div>
-            </div>
-          </header>
-          <nav class="navMenu">
-            <ul class="navList">
-              <li class="navListItem with-submenu">
-                <a class="navLink" href="#"
-                  >Categoría<iconify-icon icon="ion:chevron-down"></iconify-icon
-                ></a>
-                <ul class="submenu">
-                  <li class="submenu-item">
-                    <a href="/pages/productosTortas.html" class="submenu-link">Tortas</a>
-                  </li>
-                  <li class="submenu-item">
-                    <a href="productosPostres.html" class="submenu-link">Postres</a>
-                  </li>
-                  <li class="submenu-item">
-                    <a href="#" class="submenu-link">Cupcakes</a>
-                  </li>
-                  <li class="submenu-item">
-                    <a href="#" class="submenu-link">Postres en Vasos</a>
-                  </li>
-                  <li class="submenu-item">
-                    <a href="#" class="submenu-link">Paletas</a>
-                  </li>
-                  <li class="submenu-item">
-                    <a href="#" class="submenu-link">Popcakes</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="navListItem"><a class="navLink" href="#">Promociones</a></li>
-              <li class="navListItem"><a class="navLink" href="#">Combos</a></li>
-              <li class="heaListItem">
-                <a class="navLink" href="/pages/contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </nav>
+            </label><br>
 
-          <main>
-            <h1 class="title">Carrito de Compras</h1>
-            <section class="itemsCar">
-               <article class="itemCar">
-                    <div class="imgItem">
-                        <img class="imgItemCar" src="/images/Tortas/Tortas Golosinas/Golosinas5.PNG" alt="Torta de Golosinas">
-                    </div>
-                    <div class="itemDetails">
-                        <p class="itemTitle">Torta de Golosinas</p>
-                        <p class="itemDetail">Bizcochuelo de Chocolate con doble relleno de Dulce de Leche, cubierta con Golosinas variadas.
-                        <p class="priceCar">$ 15.000</p>
-                        </p>
-                    </div>
-                    <div class="amount">
-                        <input type="number" class="inputAmount" name="number1" id="number1" placeholder="0">
-                    </div>
-                </article>
-                <iconify-icon icon="mi:delete" width="24" height="24"></iconify-icon>
+            <iconify-icon class="iconDel" icon="mi:delete" width="24" height="24"></iconify-icon>
+          </div>
 
-               <article class="itemCar">
-                    <div class="imgItem">
-                        <img class="imgItemCar" src="/images/Tortas/Tortas Golosinas/Golosinas5.PNG" alt="Torta de Golosinas">
-                    </div>
-                    <div class="itemDetails">
-                        <p class="itemTitle">Torta de Golosinas</p>
-                        <p class="itemDetail">Bizcochuelo de Chocolate con doble relleno de Dulce de Leche, cubierta con Golosinas variadas.
-                        <p class="priceCar">$ 15.000</p>
-                        </p>
-                    </div>
-                    <div class="amount">
-                        <input type="number" class="inputAmount" name="number1" id="number1" placeholder="0">
-                    </div>
-                </article>
-                <iconify-icon icon="mi:delete" width="24" height="24"></iconify-icon>
-               <article class="itemCar">
-                    <div class="imgItem">
-                        <img class="imgItemCar" src="/images/Tortas/Tortas Golosinas/Golosinas5.PNG" alt="Torta de Golosinas">
-                    </div>
-                    <div class="itemDetails">
-                        <p class="itemTitle">Torta de Golosinas</p>
-                        <p class="itemDetail">Bizcochuelo de Chocolate con doble relleno de Dulce de Leche, cubierta con Golosinas variadas.
-                        <p class="priceCar">$ 15.000</p>
-                        </p>
-                    </div>
-                    <div class="amount">
-                        <input type="number" class="inputAmount" name="number1" id="number1" placeholder="0">
-                    </div>
-                </article>
-                <iconify-icon icon="mi:delete" width="24" height="24"></iconify-icon>
-            
-              </section>
-          </main>
+          <!-- Item 3 -->
+          <div class="containerItem">
+            <input class="inputRadio" type="radio" id="item3" name="item3" value="item3">
+            <label class="labelItemCar" for="item3">
+              <div class="itemCar">
+                <div class="imgItem">
+                  <img class="imgItemCar" src="/images/Tortas/Tortas Golosinas/Golosinas5.PNG" alt="Torta de Golosinas">
+                </div>
+                <div class="itemDetails">
+                  <p class="itemTitle">Torta de Golosinas</p>
+                  <p class="itemDetail">Bizcochuelo de Chocolate con doble relleno de Dulce de Leche, cubierta con
+                    Golosinas variadas.
+                  <p class="priceCar">$ 15.000</p>
+                  </p>
+                </div>
+                <div class="amount">
+                  <input type="number" class="inputAmount" name="number1" id="number1" placeholder="0">
+                </div>
+              </div>
+            </label><br>
 
-          <footer class="footer">
-            <div class="copy">
-              <p>Copyright2024</p>
-              <p>
-                Todos los derechos reservados. <br />
-                Mi Dulce Giane
-              </p>
-            </div>
-            <div class="ico.rrss">
-              <p class="follow">Síguenos en:</p>
-              <a href="https://www.facebook.com/?locale=es_LA"><img class="img-iconos" src="/images/iconos/Facebook.png" alt="" /></a>
-              <a href="https://www.instagram.com/"><img class="img-iconos" src="/images/iconos/Instagram.png" alt="" /></a>
-              <a href="https://www.tiktok.com/"><img class="img-iconos" src="/images/iconos/Tiktok.png" alt="" /></a>
-              <a href="https://www.whatsapp.com/?lang=es_LA"><img class="img-iconos" src="/images/iconos/Whatsapp.png" alt="" /></a>
-            </div>
-            <div class="log-ubi">
-              <a href="https://maps.app.goo.gl/hj39mznTLHX31ZtNA"><img class="img-ubi" src="/images/iconos/Ubicacion.png" alt="" /></a>
-              <img class="img-logo-footer" src="/images/Logo/Logo.png" alt="" />
-            </div>
-          </footer>
-          <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
-<body>
-    
-</body>
+            <iconify-icon class="iconDel" icon="mi:delete" width="24" height="24"></iconify-icon>
+          </div>
+        </form>
+
+      </article>
+        
+      <article class="containerPays">
+        
+        <div class="resumeCar">
+          <h3 class="subtitleCar">RESUMEN</h3>
+          <p class="subtitlesResume">Subtotal:</p>
+          <p class="value"> $ 15000</p>
+          <p class="subtitlesResume">Envío:</p>
+          <p class="value">$ 0</p>
+          <p class="subtitlesResume">Total:</p>
+          <p class="value">$ 15000</p>
+        </div>
+        <div class="payments">
+          <h3 class="subtitleCar">MEDIOS DE PAGO</h3>
+          <p class="subtitlesResume">Efectivo-Transferencia:</p>
+          <img src="/images/iconos/efectivo.png" alt="Efectivo">
+          <p class="subtitlesResume">Débito o Crédito:</p>
+          <img src="/images/iconos/tarjetas.png" alt="Tarjetas">
+          <p class="subtitlesResume">Billeteras Virtuales:</p>
+          <img src="/images/iconos/billeteras.png" alt="">
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="copy">
+      <p>Copyright2024</p>
+      <p>
+        Todos los derechos reservados. <br />
+        Mi Dulce Giane
+      </p>
+    </div>
+    <div class="ico.rrss">
+      <p class="follow">Síguenos en:</p>
+      <a href="https://www.facebook.com/?locale=es_LA"><img class="img-iconos" src="/images/iconos/Facebook.png"
+          alt="" /></a>
+      <a href="https://www.instagram.com/"><img class="img-iconos" src="/images/iconos/Instagram.png" alt="" /></a>
+      <a href="https://www.tiktok.com/"><img class="img-iconos" src="/images/iconos/Tiktok.png" alt="" /></a>
+      <a href="https://www.whatsapp.com/?lang=es_LA"><img class="img-iconos" src="/images/iconos/Whatsapp.png"
+          alt="" /></a>
+    </div>
+    <div class="log-ubi">
+      <a href="https://maps.app.goo.gl/hj39mznTLHX31ZtNA"><img class="img-ubi" src="/images/iconos/Ubicacion.png"
+          alt="" /></a>
+      <img class="img-logo-footer" src="/images/Logo/Logo.png" alt="" />
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+
+  <body>
+
+  </body>
+
 </html>
