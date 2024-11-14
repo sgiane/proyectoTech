@@ -571,9 +571,9 @@ div.desc {
 .productContainer {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 20px;
   justify-content: space-evenly;
-  margin-top: 2em;
+  margin: 2em 3em;
 }
 
 
@@ -599,7 +599,17 @@ div.desc {
 .container-modal7,
 .container-modal8,
 .container-modal9,
-.container-modal10 {
+.container-modal10,
+.container-modal11,
+.container-modal12,
+.container-modal13,
+.container-modal14,
+.container-modal15,
+.container-modal16,
+.container-modal17,
+.container-modal18,
+.container-modal19,
+.container-modal20 {
   display: none;
 }
 
@@ -612,7 +622,17 @@ div.desc {
 #btn-modal7,
 #btn-modal8,
 #btn-modal9,
-#btn-modal10 {
+#btn-modal10,
+#btn-modal11,
+#btn-modal12,
+#btn-modal13,
+#btn-modal14,
+#btn-modal15,
+#btn-modal16,
+#btn-modal17,
+#btn-modal18,
+#btn-modal19,
+#btn-modal20 {
   display: none;
 }
 #btn-modal:checked ~ .container-modal,
@@ -624,7 +644,17 @@ div.desc {
 #btn-modal7:checked ~ .container-modal7,
 #btn-modal8:checked ~ .container-modal8,
 #btn-modal9:checked ~ .container-modal9,
-#btn-modal10:checked ~ .container-modal10 {
+#btn-modal10:checked ~ .container-modal10,
+#btn-modal10:checked ~ .container-modal11,
+#btn-modal10:checked ~ .container-modal12,
+#btn-modal10:checked ~ .container-modal13,
+#btn-modal10:checked ~ .container-modal14,
+#btn-modal10:checked ~ .container-modal15,
+#btn-modal10:checked ~ .container-modal16,
+#btn-modal10:checked ~ .container-modal17,
+#btn-modal10:checked ~ .container-modal18,
+#btn-modal10:checked ~ .container-modal19,
+#btn-modal10:checked ~ .container-modal20 {
   display: flex;
 }
 
