@@ -463,8 +463,12 @@ form > * {
 
 .productTortas {
   display: flex;
+  margin: 2em;
 }
 
+h2.subtCaseras{
+  margin-top: 0;
+}
 /* .titleProd{
     font-size: var(--font-small);
     font-weight: 600;
@@ -476,14 +480,17 @@ form > * {
 
 .galleryContainer {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
 }
 
 div.gallery {
   margin: 5px;
   border: 3px solid var(--hfbl-color);
-  /* float: left; */
-  width: 200px;
-  height: 300px;
+  width: 230px;
+  height: 100%;
+  justify-content: space-evenly;
 }
 
 div.gallery:hover {
@@ -492,8 +499,8 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 200px;
-  height: 230px;
+  width: 100%;
+  height: 280px;
   border-bottom: 3px solid var(--hfbl-color);
 }
 div.gallery img:hover {
@@ -503,19 +510,21 @@ div.gallery img:hover {
 div.desc {
   padding: 0.6em;
   text-align: center;
+  font-size: var(--font-xsmall);
+  font-weight: 600;
+  /* height: 100px; */
+  
 }
 
-.articleUno-Tortas {
-  margin-left: 0.5em;
+.article-Tortas {
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+    width: 100%;
   padding-bottom: 1em;
   flex-wrap: wrap;
 }
 
-.articleDos-Tortas {
-  width: 100%;
-  margin: 0.3em 0.8em;
-  height: 500px;
-}
 .detailProd {
   background-color: var(--cards-color);
   width: 100%;
@@ -525,7 +534,7 @@ div.desc {
 }
 
 .subtitle {
-  margin: 1em 0 0.5em 0;
+  margin: 1.5em 0.5em;
   text-transform: uppercase;
   color: var(--hfbl-color);
 }
@@ -562,14 +571,12 @@ div.desc {
 .productContainer {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  justify-content: space-between;
+  gap: 40px;
+  justify-content: space-evenly;
   margin-top: 2em;
 }
 
-.articleDos-Postres {
-  width: 30%;
-}
+
 
 /*------------------------------------------------Ventana Modal-------------------------*/
 .modal {
