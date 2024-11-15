@@ -97,7 +97,7 @@ Proyecto Licenciado por:
 
 * Se agregan imágenes estáticas en la página de inicio simulando un Slider, se modificará para la entrega final ya que se realizará el mismo utilizando también JS.
 
-* Esta hecho el Navbar con Bootstrat, falta dar un poco mas de estilo al menú que colapsa.
+* Esta hecho el Navbar con Bootstrap, falta dar un poco mas de estilo al menú que colapsa.
 
 * Se colocó la misma card en la grilla de reseña como muestra.
 
