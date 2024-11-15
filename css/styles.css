@@ -174,13 +174,20 @@ header {
   justify-content: space-evenly;
 }
 
+.containerList{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
 .navLink {
+    width: 8em;
+    text-align: center;
   display: inline-block;
   background-color: var(--cards-color);
-  padding: var(--spacing-8) var(--spacing-16);
-  margin: 1em 0;
+  padding: var(--spacing-8);
+  margin: 0.5em 2em;
   border-radius: 0.5em;
-  font-size: var(--font-xsmall);
+  font-size: var(--font-small);
   font-weight: 500;
   transition: background 0.3s ease-in-out;
   position: relative;
@@ -202,6 +209,7 @@ header {
 .with-submenu:hover .submenu {
   display: block;
 }
+
 .submenu-link {
   display: block;
   padding: var(--spacing-8);
@@ -211,6 +219,17 @@ header {
   background-color: var(--hfbl-color);
   transition: background 0.3s ease-in-out;
   color: var(--letter-light-color);
+}
+
+#navbar{
+  grid-area: nav;
+}
+#btnNav{
+    margin-left: 1em
+}
+
+#navList{
+  justify-content: center;
 }
 
 /*-------------------------------------------------MAIN--------------------------------------------------------------*/
@@ -233,13 +252,13 @@ header {
 }
 
 /*------------------------------------------CAROUSEL------------------------------------------*/
-.carousel {
+.indexCarousel {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
-.carousel-container {
-  margin: 6em 0;
+.carouselContainer {
+  margin: 4em;
 }
 
 .icoCarousel {
@@ -247,15 +266,17 @@ header {
   color: var(--hfbl-color);
 }
 
-.carousel-items {
+.ItemsCarousel {
   display: flex;
   gap: 0.5em;
   justify-content: center;
+  padding: 0;
 }
 
 .img-slide {
-  width: 170px;
-  height: 220px;
+
+  width: 20em;
+  height: 23em;
   border: 0.2em solid var(--hfbl-color);
   border-radius: 0.8em;
 }
@@ -349,22 +370,21 @@ footer {
 .title {
   text-align: center;
   margin-top: 0.5em;
+  text-transform: uppercase;
 }
 
 .containerProd {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5em;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 1em 3em;
 }
 
 .itemsProductos {
-  width: 300px;
-  height: 300px;
-  gap: 0.5em;
+  width: 350px;
+  height: 350px;
   text-align: center;
-  margin: 0 3em;
+  margin: 0 2em;
 }
 
 .itemProducto {
@@ -489,8 +509,11 @@ div.gallery {
   margin: 5px;
   border: 3px solid var(--hfbl-color);
   width: 230px;
-  height: 100%;
-  justify-content: space-evenly;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
 
 div.gallery:hover {
@@ -507,15 +530,17 @@ div.gallery img:hover {
   border-bottom: 4px solid #a40909;
 }
 
-div.desc {
-  padding: 0.6em;
+.desc {
   text-align: center;
-  font-size: var(--font-xsmall);
-  font-weight: 600;
-  /* height: 100px; */
-  
+  margin: auto;
 }
+.desc > p{
+  margin: 0;
+    font-size: var(--font-xsmall);
+  font-weight: 700;
+  padding: 0 0.5em;
 
+}
 .article-Tortas {
     display: flex;
     flex-direction: column;
@@ -950,8 +975,11 @@ form.formReview {
   gap: 1em;
 }
 
-.btnReviews{
+/* .btnReviews{
  width: 200px;
+} */
+label.btn{
+  width: 100%;
 }
 
 .btnRev{
@@ -989,4 +1017,9 @@ textarea:focus{
     text-align: center;
     padding: 1em;
 }
+
+body{
+  background-color: var(--body-color);
+}
 /*MEDIA QUERIES*/
+
