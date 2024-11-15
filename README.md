@@ -73,9 +73,9 @@ Sitio Web creado con HTML para la estructuración de cada página, usando estruc
 
 ### Recursos Útiles
 
-- FIGMA - Usado para ealiza el diseño del sitio con las características que se utilizarían el el proyecto.
-- FIREWORKS - Herramienta de diseño usado paa la creación del logo del sitio
-- SNAGIT - Editor usado para imágenés y videos
+- FIGMA - Usado para realizar el diseño del sitio con las características que se utilizarían el proyecto.
+- FIREWORKS - Herramienta de diseño usado para la creación del logo del sitio
+- SNAGIT - Editor usado para imágenes y videos
 
 ### Instalación
 
@@ -87,8 +87,19 @@ Puede acceder también desde el enlace de Github Pages para visualizar el sitio
 
 ### Autor
 
-Proyecto realizado por Stefany Cortez (sgiane)
+Proyecto realizado por **STEFANY CORTEZ** (sgiane)
+Talento Tech Comisión 24226
 
 ### Licencia
 
 Proyecto Licenciado por:
+
+### Información Adicional
+
+* Se agregan imágenes estáticas en la página de inicio simulando un Slider, se modificará para la entrega final ya que se realizará el mismo utilizando también JS.
+
+* Esta hecho el Navbar con Bootstrat, falta dar un poco mas de estilo al menú que colapsa.
+
+* Se colocó la misma card en la grilla de reseña como muestra.
+
+* En la opción categoría del Nav están hechas solo las páginas de Tortas y Postres, las demás se realizarán para la próxima entrega o posteriormente ya que la página productos se subdividió en varias páginas.
