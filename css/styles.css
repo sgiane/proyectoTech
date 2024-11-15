@@ -280,7 +280,7 @@ header {
 .img-slide {
 
   width: 20em;
-  height: 23em;
+  height: 20em;
   border: 0.2em solid var(--hfbl-color);
   border-radius: 0.8em;
 }
