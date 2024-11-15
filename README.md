@@ -22,8 +22,8 @@ Sitio Web E-commerce de ventas de Tortas, Postres y Dulces de diferente variedad
 * Demo
 * Breve descripción de las páginas
 * Proceso de Creación
+* Recursos Útiles
 * Instalación
-* Recursos Utilizados
 * Autor
 * Licencia
 * Información Adicional
@@ -31,8 +31,8 @@ Sitio Web E-commerce de ventas de Tortas, Postres y Dulces de diferente variedad
 
 ### Demo
 
-[![Video demostrativo del sitio.](./images/Videos/Demo.mp4)]
-(./images/Videos/Demo.mp4)
+
+
 
 ### Descripción de las páginas
 
@@ -59,3 +59,36 @@ Muestra una grilla con las cards de las opiniones y valoración de los clientes,
 * Contacto
 
 Permite al cliente contactar al usuario del sitio a través del mail.
+
+### Proceso de Creación
+
+Tecnologías utilizadas en el proyecto:
+
+- HTML
+- CSS 
+- JAVASCRIPT
+- BOOTSTRAP
+
+Sitio Web creado con HTML para la estructuración de cada página, usando estructura semántica, CSS para dar estilos al sitio, incluyendo el responsive de las páginas con media queries y algunas otras funcionalidades con Bootstrap y JAVASCRIPT para dar funcionalidad a las mismas.
+
+### Recursos Útiles
+
+- FIGMA - Usado para ealiza el diseño del sitio con las características que se utilizarían el el proyecto.
+- FIREWORKS - Herramienta de diseño usado paa la creación del logo del sitio
+- SNAGIT - Editor usado para imágenés y videos
+
+### Instalación
+
+1 Clonar repositorio o descargar archivo .zip
+2 Abri con Editor de código.
+3 Ejecutar en el navegador
+
+Puede acceder también desde el enlace de Github Pages para visualizar el sitio
+
+### Autor
+
+Proyecto realizado por Stefany Cortez (sgiane)
+
+### Licencia
+
+Proyecto Licenciado por:
