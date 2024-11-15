@@ -127,12 +127,16 @@ header {
 
 .list-menu {
   display: flex;
+  justify-content: end;
   gap: 1em;
   padding: 0 0.5em;
   font-size: var(--font-xsmall);
   font-weight: 500;
   margin-bottom: 0.5em;
+  margin-right: 1em;
+
 }
+
 .heaLink-menu {
   padding: 0.5em;
   transition: background 0.3s ease-in-out;
@@ -149,12 +153,12 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  font-size: var(--font-xxsmall);
+  font-size: var(--font-small);
   padding-right: 1em;
 }
 
 .heaLink-sesion {
-  padding: 0.1em;
+  padding: 0 0.3em;
   transition: background 0.3s ease-in-out;
   position: relative;
   border-radius: 0.3em;
@@ -402,15 +406,16 @@ footer {
 
 /*////////////////////////////////////////////CONTACTO////////////////////////////////////////////*/
 
-.form-contacto {
+.formContacto {
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 
-form {
+.formCont {
+  width: 50%;
   display: grid;
-  grid-template-columns: 30% 1fr;
+  grid-template-columns: 20% 1fr;
   margin: auto;
   text-align: left;
   padding-top: 1.5em;
@@ -419,11 +424,20 @@ form {
   margin-bottom: 0.8em;
 }
 
-form > * {
-  padding: 1.35em 2em;
+form > div{
+  text-align: center;
 }
-.label-name {
-  grid-column: 1 / 2;
+
+.labelItem{
+  /* text-align: center; */
+  width: 50%;
+  text-align: left;
+  margin:auto;
+  margin-right: 0;
+}
+
+form > * {
+  padding: 1.35em 0;
 }
 
 .contact-btn {
@@ -431,13 +445,13 @@ form > * {
   text-align: center;
 }
 
-.label-input {
-  padding: 6em 1em;
+.label-input{
+  font-size: var(--font-small);
+  font-weight: 600;
 }
-
-.input-item {
-  width: 20em;
-  height: 2.3em;
+.inputItem {
+  width: 30em;
+  height: 3em;
   background-color: #d1cdcd;
   border: 0;
   border-bottom: 2px solid var(--hfbl-color);
@@ -448,8 +462,8 @@ form > * {
 }
 
 .textarea-msg {
-  width: 20em;
-  background-color: rgb(209, 205, 205);
+  width: 30em;
+  background-color: #d1cdcd;
   border-radius: 0.8em;
   padding: 0.5em;
   font-size: var(--font-xxsmall);
@@ -477,6 +491,12 @@ form > * {
   background-color: var(--cards-color);
   color: var(--letter-transition);
   border: 2px solid var(--hfbl-color);
+}
+
+#navCart-resp,
+#log-responsive,
+#reg-responsive{
+  display: none;
 }
 
 /*/////////////////////////////////////////////////////////////////////////PRODUCTO TORTAS////////////////////////////////////////////////////////////////////////////*/
@@ -1021,5 +1041,107 @@ textarea:focus{
 body{
   background-color: var(--body-color);
 }
-/*MEDIA QUERIES*/
 
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*MEDIA QUERIES*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media only screen and (min-width: 300px) and (max-width: 768px)
+{
+
+  .headMenu{
+    display: none;
+  }
+  .formCont{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+.labelItem{
+  text-align: center;
+  width: 50%;
+  margin:auto; 
+  font-size: var(--font-xxsmall);
+}
+
+form > * {
+  padding: 1em 0 0;
+}
+
+.inputItem {
+  width: 18em;
+}
+
+.textarea-msg {
+  width: 18em;
+}
+
+.btn {
+  width: 30%;
+  padding: 0.3em;
+}
+#navCart-resp,
+#log-responsive,
+#reg-responsive{
+  display: flex;
+}
+
+.navLink{
+  font-size: var(--font-xxsmall)
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+  .formCont{
+    display: flex; 
+    flex-direction: column;
+    width: 70%;
+  }
+
+  form > * {
+  padding: 1em 0 0;
+}
+
+.labelItem{
+  text-align: center;
+  width: 50%;
+  margin:auto; 
+  font-size: var(--font-xsmall);
+}
+.inputItem {
+  width: 30em;
+}
+
+.textarea-msg {
+  width: 30em;
+
+}
+
+.btn {
+  width:40%;
+}
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px){
+
+  .formCont{
+    width: 60%;
+  }
+.labelItem{
+  text-align: center;
+  width: 50%;
+  margin:auto; 
+  font-size: var(--font-xsmall);
+}  
+.inputItem {
+  width: 25em;
+}
+
+.textarea-msg {
+  width: 25em;
+
+}
+}
