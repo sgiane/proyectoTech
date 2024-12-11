@@ -504,6 +504,7 @@ footer {
 
 .productTortas {
   display: flex;
+  flex-wrap: wrap;
   margin: 2em;
 }
 
@@ -555,10 +556,13 @@ div.gallery img:hover {
   padding: 0 0.5em;
 
 }
-.article-Tortas {
+.articleTortasCaseras,
+.articleTortasCumple,
+.articleTortasFondant,
+.articleTortasGolosinas {
     display: flex;
-    flex-direction: column;
-   justify-content: space-between;
+    /* flex-direction: column; */
+   justify-content: space-evenly;
     width: 100%;
   padding-bottom: 1em;
   flex-wrap: wrap;
@@ -573,7 +577,7 @@ div.gallery img:hover {
 }
 
 .subtitle {
-  margin: 1.5em 0.5em;
+  margin: 1em 2em;
   text-transform: uppercase;
   color: var(--hfbl-color);
 }

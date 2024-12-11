@@ -1,0 +1,174 @@
+{
+    "tortasCaseras": [
+      {
+        "id": 1,
+        "nombre": "Torta Imposible",
+        "imagen": "/images/Tortas/Tortas Caseras/Casera1.png",
+        "descripcion": "Torta imposible de Bizcochuelo húmedo de Chocolate y Quesillo (Flan).",
+        "precio": 7000,
+        "cantidad": 10
+      },
+      {
+        "id": 2,
+        "nombre": "Torta Tres Leches",
+        "imagen": "/images/Tortas/Tortas Caseras/Casera2.png",
+        "descripcion": "Torta con Bizcochuelo de Vainilla bañado en salsa Tres Leches (Condensada, Evaporada y Crema de Leche), cubierta con crema o merengue, canella y adorno de Fresas.",
+        "precio": 7000,
+        "cantidad": 10
+      },
+      {
+        "id": 3,
+        "nombre": "Marquesa de Chocolate",
+        "imagen": "/images/Tortas/Tortas Caseras/Casera3.png",
+        "descripcion": "Torta fría de Galletas y Mouse de Chocolate cubierta con Chocolate, Dulce de leche y Galletas.",
+        "precio": 7000,
+        "cantidad": 10
+      },
+      {
+        "id": 4,
+        "nombre": "Chocotorta",
+        "imagen": "/images/Tortas/Tortas Caseras/Casera4.png",
+        "descripcion": "Torta fría de Galletas Chocolinas y Salsa de Queso crema con dulce de leche decorada con Chocolate y Galletas",
+        "precio": 7000,
+        "cantidad": 10
+      },
+      {
+        "id": 5,
+        "nombre": "Torta de Piña",
+        "imagen": "/images/Tortas/Tortas Caseras/Casera5.png",
+        "descripcion": "Bizcochuelo de Vainilla y Piña con cubierta de Piña en rodajas y Cerezas.",
+        "precio": 7000,
+        "cantidad": 10
+      }
+    ],
+
+    "tortasCumple": [
+      {
+        "id": 6,
+        "nombre": "Torta con Crema",
+        "imagen": "/images/Tortas/Tortas Cumple/Cumple1.png",
+        "descripcion": "Torta de Bizcochuelo de Vainilla o Chocolate, con doble relleno de Dulce de Leche y Crema, cubierta con crema en forma de Flores y Adorno de Flores",
+        "precio": 7000,
+        "cantidad": 10
+      },
+      {
+        "id": 7,
+        "nombre": "Torta de Crema de Chocolate",
+        "imagen": "/images/Tortas/Tortas Cumple/Cumple2.png",
+        "descripcion": "Torta de Bizcochuelo de Chocolate con doble relleno de Crema y Mouse de Chocolate, cubierta con crema de Chocolate y adorno de diferentes tipos de Chocolates en Golosinas.",
+        "precio": 7000,
+        "cantidad": 10
+      },
+      {
+        "id": 8,
+        "nombre": "Torta de Unicornio con Crema",
+        "imagen": "/images/Tortas/Tortas Cumple/Cumple3.png",
+        "descripcion": "Torta de Bizcochuelo de Vainilla o Chocolate, relleno con Crema y Mermelada de Preferencia, cubierta con Crema con motivo de Unicornio.",
+        "precio": 7000,
+        "cantidad": 10
+      },
+      {
+        "id": 9,
+        "nombre": "Torta de Vainilla rellena con crema y chocolate",
+        "imagen": "/images/Tortas/Tortas Cumple/Cumple4.png",
+        "descripcion": "Torta Básica de Bizcochuelo de Vainilla o Chocolate rellena con Crema y Dulce de Leche, cubierta con Crema, Chocolate y Frutillas.",
+        "precio": 7000,
+        "cantidad": 10
+      },
+      {
+        "id": 10,
+        "nombre": "Torta de Dulce de Leche",
+        "imagen": "/images/Tortas/Tortas Cumple/Cumple5.png",
+        "descripcion": "Torta Básica de Bizcochuelo de Vainilla relleno con Dulce de Leche, cubierta con Crema de Dulce de Leche.",
+        "precio": 7000,
+        "cantidad": 10
+      }
+    ],
+  
+    "tortasFondant": [
+      {
+        "id": 11,
+        "nombre": "Torta Selva NegraTorta cubierta con Fondant y detalles de Mujer",
+        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "descripcion": "Torta con Bizcochuelo húmedo de Vainilla o Chocolate con doble relleno a elección del cliente.",
+        "precio": 7000,
+        "cantidad": 10
+      },
+      {
+        "id": 12,
+        "nombre": "Torta de Bob Esponja con Fondant",
+        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "descripcion": "Torta con Bizcochuelo húmedo de Chocolate con doble relleno a elección del cliente.",
+        "precio": 7000,
+        "cantidad": 10
+      },
+
+      {
+        "id": 13,
+        "nombre": "Torta de Lazo en Fondant",
+        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "descripcion": "Torta con Bizcochuelo húmedo de Chocolate con doble relleno a elección del cliente.",
+        "precio": 7000,
+        "cantidad": 10
+      },
+      {
+        "id": 14,
+        "nombre": "Torta de Mickey Mouse en Fondant",
+        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "descripcion": "Torta con Bizcochuelo húmedo de Chocolate con doble relleno a elección del cliente.",
+        "precio": 7000,
+        "cantidad": 10
+      },
+      {
+        "id": 15,
+        "nombre": "Torta de Flores con Fondant",
+        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "descripcion": "Torta con Bizcochuelo húmedo de Chocolate con doble relleno a elección del cliente.",
+        "precio": 7000,
+        "cantidad": 10
+      }
+    ],
+
+    "tortasGolosinas": [
+      {
+        "id": 16,
+        "nombre": "Torta redonda cubierta de Golosinas",
+        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "descripcion": "Torta de Bizcochuelo húmedo de Vainilla o Chocolate con relleno a elección del cliente y cubierta de Golosinas",
+        "precio": 7000,
+        "cantidad": 10
+      },
+      {
+        "id": 17,
+        "nombre": "Torta de dos pisos cubierta con Golosinas",
+        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "descripcion": "Torta de Bizcochuelo húmedo de Vainilla o Chocolate con relleno a elección del cliente y cubierta de Golosinas",
+        "precio": 7000,
+        "cantidad": 10
+      },
+      {
+        "id": 18,
+        "nombre": "Torta redonda cubierta de Golosinas",
+        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "descripcion": "Torta de Bizcochuelo húmedo de Vainilla o Chocolate con relleno a elección del cliente y cubierta de Golosinas",
+        "precio": 7000,
+        "cantidad": 10
+      },
+      {
+        "id": 19,
+        "nombre": "Torta Rectangular cubierta con Golosinas",
+        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "descripcion": "Torta de Bizcochuelo húmedo de Vainilla o Chocolate con relleno a elección del cliente y cubierta de Golosinas",
+        "precio": 7000,
+        "cantidad": 10
+      },
+      {
+        "id": 20,
+        "nombre": "Torta en forma de Corazón cubierta con Golosinas.",
+        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "descripcion": "Torta de Bizcochuelo húmedo de Vainilla o Chocolate con relleno a elección del cliente y cubierta de Golosinas",
+        "precio": 7000,
+        "cantidad": 10
+      }
+    ]
+  }
