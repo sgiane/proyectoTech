@@ -97,7 +97,7 @@
       {
         "id": 12,
         "nombre": "Torta de Bob Esponja con Fondant",
-        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "imagen": "/images/Tortas/Tortas Fondant/Fondant2.png",
         "descripcion": "Torta con Bizcochuelo húmedo de Chocolate con doble relleno a elección del cliente.",
         "precio": 7000,
         "cantidad": 10
@@ -106,7 +106,7 @@
       {
         "id": 13,
         "nombre": "Torta de Lazo en Fondant",
-        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "imagen": "/images/Tortas/Tortas Fondant/Fondant3.png",
         "descripcion": "Torta con Bizcochuelo húmedo de Chocolate con doble relleno a elección del cliente.",
         "precio": 7000,
         "cantidad": 10
@@ -114,7 +114,7 @@
       {
         "id": 14,
         "nombre": "Torta de Mickey Mouse en Fondant",
-        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "imagen": "/images/Tortas/Tortas Fondant/Fondant4.png",
         "descripcion": "Torta con Bizcochuelo húmedo de Chocolate con doble relleno a elección del cliente.",
         "precio": 7000,
         "cantidad": 10
@@ -122,7 +122,7 @@
       {
         "id": 15,
         "nombre": "Torta de Flores con Fondant",
-        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "imagen": "/images/Tortas/Tortas Fondant/Fondant5.png",
         "descripcion": "Torta con Bizcochuelo húmedo de Chocolate con doble relleno a elección del cliente.",
         "precio": 7000,
         "cantidad": 10
@@ -133,7 +133,7 @@
       {
         "id": 16,
         "nombre": "Torta redonda cubierta de Golosinas",
-        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "imagen": "/images/Tortas/Tortas Golosinas/Golosinas1.png",
         "descripcion": "Torta de Bizcochuelo húmedo de Vainilla o Chocolate con relleno a elección del cliente y cubierta de Golosinas",
         "precio": 7000,
         "cantidad": 10
@@ -141,7 +141,7 @@
       {
         "id": 17,
         "nombre": "Torta de dos pisos cubierta con Golosinas",
-        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "imagen": "/images/Tortas/Tortas Golosinas/Golosinas2.png",
         "descripcion": "Torta de Bizcochuelo húmedo de Vainilla o Chocolate con relleno a elección del cliente y cubierta de Golosinas",
         "precio": 7000,
         "cantidad": 10
@@ -149,7 +149,7 @@
       {
         "id": 18,
         "nombre": "Torta redonda cubierta de Golosinas",
-        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "imagen": "/images/Tortas/Tortas Golosinas/Golosinas3.png",
         "descripcion": "Torta de Bizcochuelo húmedo de Vainilla o Chocolate con relleno a elección del cliente y cubierta de Golosinas",
         "precio": 7000,
         "cantidad": 10
@@ -157,7 +157,7 @@
       {
         "id": 19,
         "nombre": "Torta Rectangular cubierta con Golosinas",
-        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "imagen": "/images/Tortas/Tortas Golosinas/Golosinas4.png",
         "descripcion": "Torta de Bizcochuelo húmedo de Vainilla o Chocolate con relleno a elección del cliente y cubierta de Golosinas",
         "precio": 7000,
         "cantidad": 10
@@ -165,7 +165,7 @@
       {
         "id": 20,
         "nombre": "Torta en forma de Corazón cubierta con Golosinas.",
-        "imagen": "/images/Tortas/Tortas Fondant/Fondant1.png",
+        "imagen": "/images/Tortas/Tortas Golosinas/Golosinas5.png",
         "descripcion": "Torta de Bizcochuelo húmedo de Vainilla o Chocolate con relleno a elección del cliente y cubierta de Golosinas",
         "precio": 7000,
         "cantidad": 10
